@@ -1,0 +1,114 @@
+*{
+    padding:0%;
+    margin:0%;
+}
+body{
+    background-image: url(435.webp);
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+form{
+    color: rgb(7, 160, 180);
+    width: 80%;
+    margin: 30px auto;
+    background-color:rgba(0, 0, 0,  0.7);
+    border-end-end-radius: 8px; 
+}
+form h1{
+ text-align: center;
+ padding-top: 45px;
+}
+form  .details{
+    padding: 55px 55px 0 55px;
+    font-size: 20px;
+}
+form .details input{
+    width: 275px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    border: 2px solid gray;
+}
+.details .align{
+    margin-left: 50px;
+}
+.details .alignment{
+    float: right;
+    position: relative;
+    right: 347px;
+    bottom: 20px;
+}
+
+.details .dates #date{
+    float: right;
+    position: relative;
+    right: 570px;
+    bottom: 20px;
+}
+.details .dates{
+    position: relative;
+    bottom: 80px;
+}
+::placeholder{
+    font: 1rem;
+}
+.radio{
+    padding: 10%;
+    font-size: 20px;
+}
+input [type = "radio"]{
+    width: 25px;
+    height: 20px;
+    column-rule: aqua;
+}
+table{
+    border-collapse: collapse;
+    empty-cells: hide;
+    color: dimgrey;
+}
+tr label{
+    width: 17vw;
+    display: inline-block;
+}
+table th, td{
+    padding: 11px;
+    font-size:15px;
+    width: 5vw;
+    text-align: center;
+    border: 1px solid white;
+}
+table tr, th{
+    background-color: rgba(0, 0, 0,  0.7);
+}
+.questions{
+    padding: 55px;
+    font-size: 20px;
+}
+span{
+    font-size: 1rem;
+}
+.feedback{
+    padding: 50px;
+    font-size: 20px;
+
+}
+.feedback .textarea{
+    padding: 25px;
+    font-size: 1rem;
+}
+.btn{
+    padding: 35px 0 50px 0;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+form button{
+    padding: 15px;
+    font-size: 18px;
+    width: 10em;
+    background: rgb(144, 15, 184);
+    color: rgb(3, 3, 3);
+    border: 1px solid grey;
+    cursor: pointer;
+}
